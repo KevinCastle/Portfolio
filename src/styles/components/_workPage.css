@@ -1,0 +1,40 @@
+.work-container {
+    display: flex;
+  flex-wrap: wrap;
+}
+
+.work-container > * {
+    flex: 1 0 33%;
+    text-align: center;
+}
+
+.work-dot{
+    color: var(--red);
+    font-size: 8rem;
+}
+
+.work-title{
+    color: var(--black);
+    font-family: Righteous;
+    font-size: var(--xl-size);
+    font-weight: 400;
+    text-align: left;
+}
+
+@media screen and (max-width: 770px) {
+    .work-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .work-container>* {
+        flex: 0 1 0;
+    }
+
+    .work-title {
+        font-size: var(--xl-size);
+        line-height: 0.5;
+        margin-bottom: var(--l-size);
+    }
+}

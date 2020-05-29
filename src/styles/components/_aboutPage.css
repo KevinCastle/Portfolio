@@ -1,0 +1,157 @@
+.about-card {
+    align-items: flex-start;
+    border-left: 3px solid var(--light-red);
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    margin-left: 5vw;
+    padding-left: 2rem;
+    
+}
+
+.about-icons {
+    color: var(--black);
+    font-size: 4rem;
+    margin-right: 1vw;
+}
+
+.about-card-name {
+    color: var(--red);
+    font-family: Righteous;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.about-card-info {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.about-card-info a {
+    color: var(--light-gray);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+.about-card-info a:hover {
+    color: var(--dark-gray);
+}
+
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2vh;
+}
+
+.about-container>* {
+    flex: 1 0 300px;
+}
+
+.about-description {
+    line-height: 1.5;
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.about-dot {
+    color: var(--red);
+    font-size: 8rem;
+}
+
+.about-title {
+    color: var(--black);
+    font-family: Righteous;
+    font-size: var(--xxl-size);
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.about-skills {
+    background-color: var(--red);
+    margin: 1rem 0;
+    padding: 3rem 2vw;
+    width: 70%;
+}
+
+.about-skills p {
+    color: white;
+    font-size: var(--l-size);
+    margin-top: 0;
+}
+
+.about-skills ul {
+    padding-left: 20px;
+}
+
+.about-skills ul li {
+    color: white;
+    list-style-type: none;
+    padding-bottom: 10px;
+    font-weight: 300;
+    font-size: 2.0rem;
+}
+
+.about-subtitle {
+    color: var(--light-gray);
+    font-size: 2.0rem;
+    font-weight: 500;
+    margin-top: 0;
+    width: 70%;
+}
+
+@media screen and (max-width: 770px) {
+    .about-cards-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+    }
+
+    .about-card {
+        align-items: center;
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 3rem;
+        margin-left: 3vw;
+        padding-left: 3vw;
+    }
+
+    .about-icons {
+        color: var(--black);
+        font-size: 4rem;
+        margin-bottom: 4vw;
+    }
+
+
+    .about-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100%;
+        margin: 0;
+    }
+
+    .about-container>* {
+        flex: 0 1 0;
+    }
+
+
+    .about-description {
+        font-size: var(--m-size);
+        text-align: justify;
+    }
+
+    .about-title {
+        font-size: var(--xl-size);
+    }
+
+    .about-skills {
+        width: 90vw;
+    }
+
+}

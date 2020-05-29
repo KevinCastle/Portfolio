@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root {
+    /*Spacing*/
+    --s-size: 1.2rem;
+    --m-size: 1.6rem;
+    --l-size: 3.2rem;
+    --xl-size: 4.8rem;
+    --xxl-size: 6.0rem;
+    --desktop-breakpoint: 45rem;
+
+    /* Colors */
+    --black: #2c2c2c;
+    --dark-gray: #707070;
+    --light-gray: #A4A4A4;
+    --red: #FF4D4D;
+    --light-red: #FF6A6A;
+
+}

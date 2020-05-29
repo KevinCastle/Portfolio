@@ -1,0 +1,14 @@
+.workItem-name {
+    text-align: center;
+    font-size: var(--m-size);
+    font-weight: 600;
+    margin: 0;
+}
+
+.workItem-info {
+    color: var(--dark-gray);
+    font-family: roboto mono;
+    font-size: var(--s-size);
+    margin-top: 5px;
+
+}
