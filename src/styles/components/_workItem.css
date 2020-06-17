@@ -1,8 +1,21 @@
+.workItem-container {
+    margin-bottom: 30px;
+}
+
+.workItem-container a {
+    text-decoration: none;
+}
 .workItem-name {
-    text-align: center;
+    color: var(--black);
     font-size: var(--m-size);
     font-weight: 600;
     margin: 0;
+    text-align: center;
+}
+
+.workItem-image {
+    border-radius: 5%;
+    width: 90%;
 }
 
 .workItem-info {
@@ -11,4 +24,11 @@
     font-size: var(--s-size);
     margin-top: 5px;
 
+}
+
+@media screen and (max-width: 770px) {
+    .workItem-image {
+        border-radius: 5%;
+        width: 50vw;
+    }
 }
