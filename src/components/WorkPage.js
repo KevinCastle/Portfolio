@@ -20,11 +20,18 @@ const WorkPage = () => (
                     age={2019}
                 />
                 <WorkItem
+                itemDir={"https://kevincastle.github.io/Novotour/"}
+                    images="NovotourBanner.png"
+                    name={"Novotour Webpage"}
+                    framework={"HTML - CSS - PHP"}
+                    age={2018}
+                />
+                <WorkItem
                 itemDir={"https://codepen.io/KevinCastle/full/egmYYo"}
                     images="TictactoeBanner.png"
                     name={"Tic Tac Toe"}
                     framework={"JQuery - CSS"}
-                    age={2020}
+                    age={2016}
                 />
                 <WorkItem
                 itemDir={"https://codepen.io/KevinCastle/full/LxVWme"}
@@ -33,20 +40,7 @@ const WorkPage = () => (
                     framework={"JQuery - Bootstrap"}
                     age={2016}
                 />
-                <WorkItem
-                itemDir={"https://kevincastle.github.io/Novotour/"}
-                    images="NovotourBanner.png"
-                    name={"Novotour Webpage"}
-                    framework={"HTML - CSS - PHP"}
-                    age={2020}
-                />
-                <WorkItem
-                itemDir={"https://kevincastle.github.io/ChileTour"}
-                    images="NovotourBanner.png"
-                    name={"My ChileTour Webpage"}
-                    framework={"Vanilla JS - SCSS"}
-                    age={2020}
-                />
+                
         </div>
     </div>
 );
