@@ -13,6 +13,13 @@ const WorkPage = () => (
                     age={2020}
                 />
                 <WorkItem
+                itemDir={"https://kevincastle.github.io/ChileTour/"}
+                    images="MychiletourBanner.png"
+                    name={"My Chile Tour"}
+                    framework={"React - React-Bootstrap"}
+                    age={2020}
+                />
+                <WorkItem
                 itemDir={"https://fathomless-chamber-54195.herokuapp.com"}
                     images="IndecisionBanner.png"
                     name={"Indecision App"}
@@ -39,8 +46,7 @@ const WorkPage = () => (
                     name={"Simon Game"}
                     framework={"JQuery - Bootstrap"}
                     age={2016}
-                />
-                
+                />               
         </div>
     </div>
 );
