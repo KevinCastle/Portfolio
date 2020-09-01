@@ -7,7 +7,7 @@ const WorkPage = () => (
         <div className="work-container">
             <WorkItem
                 itemDir={"https://kevincastle.github.io/weather-app/"}
-                images="SimonBanner.png"
+                images="WeatherBanner.png"
                 name={"Weather App"}
                 framework={"React - Sass - Hooks - OpenWeatherMap"}
                 age={2020}
@@ -28,7 +28,7 @@ const WorkPage = () => (
             />
             <WorkItem
                 itemDir={"https://kevincastle.github.io/example-landing-page/"}
-                images="MychiletourBanner.png"
+                images="LandingBanner.png"
                 name={"Example Landing Page"}
                 framework={"HTML - Bootstrap - JavaScript Vanilla"}
                 age={2020}

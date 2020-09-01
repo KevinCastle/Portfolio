@@ -3,10 +3,16 @@ html{
 }
 
 body{
+    background-image: radial-gradient(#F0EDEC 20%, transparent 20%),
+    radial-gradient(#F0EDEC 20%, transparent 20%);
     background-color: #f7f7f7;
+    background-position: 0 0,
+    50px 50px;
+    background-size: 6px 6px;
     font-family: roboto;
     font-size: var(--m-size);
-    
+    height: 200px;
+    width: 100%;
 }
 
 button {

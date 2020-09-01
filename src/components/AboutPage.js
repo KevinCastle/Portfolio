@@ -12,12 +12,12 @@ const AboutPage = () => (
                 <div className="about-skills">
                     <p>Skills</p>
                     <ul>
-                        <li>—&emsp;React development</li>
-                        <li>—&emsp;React Native development</li>
-                        <li>—&emsp;Responsive design</li>
-                        <li>—&emsp;Vue development</li>
-                        <li>—&emsp;Firebase database</li>
-                        <li>—&emsp;UI designer</li>
+                        <li>⬤&emsp;React development</li>
+                        <li>⬤&emsp;HTML5 / CSS3 / JS</li>
+                        <li>⬤&emsp; Git / Github</li>
+                        <li>⬤&emsp;API integration</li>
+                        <li>⬤&emsp;Firebase database</li>
+                        <li>⬤&emsp;UI designer</li>
                     </ul>
                 </div>
             </div>

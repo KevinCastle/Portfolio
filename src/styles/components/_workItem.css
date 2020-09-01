@@ -7,28 +7,28 @@
 }
 .workItem-name {
     color: var(--black);
-    font-size: var(--m-size);
+    font-size: 2rem;
     font-weight: 600;
     margin: 0;
     text-align: center;
 }
 
 .workItem-image {
-    border-radius: 5%;
-    width: 90%;
+    border-radius: 2%;
+    width: 98%;
 }
 
 .workItem-info {
     color: var(--dark-gray);
     font-family: roboto mono;
     font-size: var(--s-size);
-    margin-top: 5px;
+    margin-top: 10px;
 
 }
 
 @media screen and (max-width: 770px) {
-    .workItem-image {
-        border-radius: 5%;
-        width: 50vw;
+    .workItem-name {
+        font-size: 2rem;
+        font-weight: 600;
     }
 }
