@@ -12,11 +12,11 @@ const HomePage = () => (
                 <p className="home-title">Kevin Castillo</p>
 
                 <div>
-                    <p className="home-subtitle">I <a href="#work">develop websites</a> for folks <br /> and <a href="#contact">design it</a> for fun</p>
+                    <p className="home-subtitle">I <a href="#work">develop websites</a> as work <br /> and <a href="#contact">learn about it</a> for fun</p>
                 </div>
             </div>
-            <div>
-                <img className="home-avatar" src={process.env.PUBLIC_URL + '/images/image.jpg'} alt="Kevin Castillo" />
+            <div className="home-avatar">
+                <img src={process.env.PUBLIC_URL + '/images/avatar.jpeg'} alt="Kevin Castillo" />
             </div>
         </div>
     </div>

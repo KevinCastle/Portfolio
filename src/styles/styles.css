@@ -5,5 +5,7 @@
 @import './components/_aboutPage.css';
 @import './components/_contactPage.css';
 @import './components/_homePage.css';
+@import './components/_projectPage.css';
+@import './components/_projectItem.css';
 @import './components/_workPage.css';
 @import './components/_workItem.css';

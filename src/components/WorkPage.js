@@ -1,66 +1,36 @@
 import React from 'react';
-import WorkItem from '../components/WorkItem';
+import WorkItem from './WorkItem';
+
 
 const WorkPage = () => (
     <div id="work">
-        <p className="work-title">Stuff I've Done<span className="work-dot">:</span></p>
+        <p className="work-title">Where I've worked<span className="work-dot">:</span></p>
         <div className="work-container">
+        <div className="work-col--image">
             <WorkItem
-                itemDir={"https://kevincastle.github.io/weather-app/"}
-                images="WeatherBanner.png"
-                name={"Weather App"}
-                framework={"React - Sass - Hooks - OpenWeatherMap"}
-                age={2020}
+                    itemDir={"https://www.modyo.com"}
+                images="ModyoBanner.png"
+                name={"Modyo"}
+                framework={"VueJS"}
+                age={'2020 - currently'}
             />
-            <WorkItem
-                itemDir={"https://infinite-tundra-21082.herokuapp.com"}
-                images="ExpensifyBanner.png"
-                name={"Expensify App"}
-                framework={"React - Sass - Redux"}
-                age={2020}
-            />
-            <WorkItem
-                itemDir={"https://kevincastle.github.io/ChileTour/"}
-                images="MychiletourBanner.png"
-                name={"My Chile Tour"}
-                framework={"React - React-Bootstrap"}
-                age={2020}
-            />
-            <WorkItem
-                itemDir={"https://kevincastle.github.io/example-landing-page/"}
-                images="LandingBanner.png"
-                name={"Example Landing Page"}
-                framework={"HTML - Bootstrap - JavaScript Vanilla"}
-                age={2020}
-            />
-            <WorkItem
-                itemDir={"https://fathomless-chamber-54195.herokuapp.com"}
-                images="IndecisionBanner.png"
-                name={"Indecision App"}
-                framework={"React - SCSS - NodeJS"}
-                age={2019}
-            />
-            <WorkItem
-                itemDir={"https://kevincastle.github.io/Novotour/"}
-                images="NovotourBanner.png"
-                name={"Novotour Webpage"}
-                framework={"HTML - CSS - PHP"}
-                age={2018}
-            />
-            <WorkItem
-                itemDir={"https://codepen.io/KevinCastle/full/egmYYo"}
-                images="TictactoeBanner.png"
-                name={"Tic Tac Toe"}
-                framework={"JQuery - CSS"}
-                age={2016}
-            />
-            <WorkItem
-                itemDir={"https://codepen.io/KevinCastle/full/LxVWme"}
-                images="SimonBanner.png"
-                name={"Simon Game"}
-                framework={"JQuery - Bootstrap"}
-                age={2016}
-            />
+            </div>
+            <div className="work-col--text">
+            <p>Modyo is a platform for web apps solutions. There I worked in differents projects using VueJS and bootstrap as main frameworks.
+            Here I learned to code with Agile, Axios, Docker, Rest API, npm, and many other libraries. In addition, I led projects and trained
+            other fronténd developers for it. Next, there are some projects in which I participated: </p>
+            <div className="work-item--projects">
+                <a rel="noopener noreferrer" target="_blank" href="https://www.uss.cl" alt="Universidad San Sebastian">
+                        <img className="work-item--projects-image" src={process.env.PUBLIC_URL + '/images/ussLogo.png'} alt="Universidad San Sebastian" />
+                </a>
+                <a rel="noopener noreferrer" target="_blank" href="https://www.bci.cl/personas" alt="Banco BCI">
+                        <img className="work-item--projects-image" src={process.env.PUBLIC_URL + '/images/bciLogo.png'} alt="Banco BCI" />
+                </a>
+                <a rel="noopener noreferrer" target="_blank" href="https://banco.bice.cl/personas" alt="Banco BICE">
+                        <img className="work-item--projects-image" src={process.env.PUBLIC_URL + '/images/biceLogo.png'} alt="Banco BICE" />
+                </a>
+                </div>
+            </div>
         </div>
     </div>
 );
