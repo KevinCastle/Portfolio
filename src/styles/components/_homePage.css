@@ -1,6 +1,15 @@
 .home-avatar {
-    width: 30vw;
+    position: relative;
+    width: 25vw;
+    height: 25vw;
+    overflow: hidden;
     border-radius: 50%;
+}
+
+.home-avatar img {
+    display: inline;
+    width: 100%;
+    height: auto;
 }
 
 .home-container {
@@ -8,6 +17,7 @@
     color: var(--black);
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin-top: 20vh;
     margin-bottom: 20vh;
 }
@@ -49,10 +59,17 @@
 @media screen and (max-width: 770px) {
 
     .home-avatar {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
+        position: relative;
+        width: 40vw;
+        height: 40vw;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+
+    .home-avatar img {
+        display: inline;
+        width: 100%;
+        height: auto;
     }
 
     .home-container {

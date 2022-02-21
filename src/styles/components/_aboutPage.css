@@ -109,7 +109,7 @@
 @media screen and (max-width: 770px) {
     .about-cards-container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin-top: 2rem;
     }
 
@@ -151,7 +151,7 @@
     }
 
     .about-skills {
-        width: 90vw;
+        width: auto;
     }
 
 }

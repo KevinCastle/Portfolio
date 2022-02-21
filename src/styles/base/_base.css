@@ -7,8 +7,8 @@ body{
     radial-gradient(#F0EDEC 20%, transparent 20%);
     background-color: #f7f7f7;
     background-position: 0 0,
-    50px 50px;
-    background-size: 6px 6px;
+    60px 60px;
+    background-size: 8px 8px;
     font-family: roboto;
     font-size: var(--m-size);
     height: 200px;
